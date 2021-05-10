@@ -1,0 +1,115 @@
+/* $red: #b71c1c;
+$green: #4caf50;
+$outline-blue: #08c;
+
+$borderStyle: 1px solid #ddd; */
+
+/* @import 'styles/select_box' */
+
+body {
+  margin-top: 70px;
+}
+
+.navbar {
+  border-radius: 0;
+  height: 60px;
+  background: greenyellow;
+  padding: 0 30px;
+}
+
+.navbar-header {
+  display: inline-block;
+}
+
+.github-repo-link {
+  line-height: 50px;
+}
+
+.github-repo-link .glyphicon {
+  line-height: 50px;
+  margin-right: 5px;
+}
+
+.datamap-outer-conainer {
+  padding: 0;
+  background-color: black;
+}
+
+.datamap-outer-conainer #datamap-container {
+  position: relative;
+  margin: 0 auto;
+  background-color: azure;
+}
+
+.data-table-box {
+  padding: 0 15px;
+  background-color: yellow;
+}
+
+.data-table-box .data-table-box-outer {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 150px;
+  border-collapse: collapse;
+}
+table th {
+  border: #4caf50;
+  padding: 5px 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+table h4 {
+  border: #4caf50;
+  padding: 5px 15px;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+}
+table .glyphicon {
+  border: #4caf50;
+  padding: 5px 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+table td {
+  border: 1px solid #ddd;
+  width: 45%;
+  height: 35px;
+  text-align: start;
+}
+table td:first-of-type {
+  padding: 10px 15px;
+}
+table td:last-of-type {
+  border: none;
+  width: 10%;
+}
+
+table input {
+  border: none;
+  width: 100%;
+  height: 100%;
+  padding-left: 15px;
+  background-color: red;
+}
+
+table .remove-btn {
+  margin-left: 10px;
+  padding: 10px;
+  color: #b71c1c;
+  opacity: 0;
+  cursor: pointer;
+  font-size: 1.7rem;
+}
+
+table tr:hover .remove-btn {
+  opacity: 1;
+  color: #4caf50;
+}
